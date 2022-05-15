@@ -15,7 +15,7 @@ int main()
 
     cin >> age;
 
-    // read a string with the whitespace
+    // Read a string with the whitespace
     cin.get();
 
     cout << "Please enter your gender:";
