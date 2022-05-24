@@ -16,9 +16,9 @@
                 "program": "${workspaceFolder}/output/main"
             },
             "osx": {
-                "MIMode": "lldb",
-                "miDebuggerPath": "lldb-mi",
-                "program": "${workspaceFolder}/output/main"
+                "MIMode": "gdb",
+                "miDebuggerPath": "gdb",
+                "program": "${workspaceFolder}/array_vectors/arrays/array"
             },
             "windows": {
                 "MIMode": "gdb",
