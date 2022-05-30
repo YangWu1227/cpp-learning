@@ -20,7 +20,7 @@ Here, `statement(s)` may be a single statement or a block of statements. The con
 
 The flow diagram:
 
-![Drag Racing](flow_diagrams/for.png)
+![](flow_diagrams/for.png)
 
 The nested syntax is as follows:
 
@@ -78,7 +78,7 @@ while(condition) {
 
 The `condition` may be any expression, and `true` is any non-zero value. The loop iterates while the condition is `true`. The flow diagram is as follows:
 
-![Drag Racing](flow_diagrams/while.png)
+![](flow_diagrams/while.png)
 
 The nested syntax is as follows:
 
@@ -104,7 +104,7 @@ while(condition);
 
 Because the conditional expression appears at the end of the loop, the `statement(s)` in the loop execute once before the condition is tested. If the `condition` is `true`, the flow of control jumps back up to `do`, and the `statement(s)` in the loop execute again. This process repeats until the given `condition` becomes `false`. The `do...while` loop has the following flow diagram:
 
-![Drag Racing](flow_diagrams/do_while.png)
+![](flow_diagrams/do_while.png)
 
 The nested syntax is as follows:
 

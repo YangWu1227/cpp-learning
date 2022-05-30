@@ -75,7 +75,7 @@ int main()
     /* ----------------------------- Character array ---------------------------- */
 
     char charArray[] = "Bye";
-    int arraySize = sizeof(charArray);
+    int arraySize = sizeof(charArray) / sizeof(charArray[0]);
 
     for (int i = 0; i < arraySize; i++)
     {
